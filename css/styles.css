@@ -1,0 +1,161 @@
+:root {
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navy-blue: #2E2F42;
+    --slate: #434455;
+    --light-slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --white: #ffffff;
+}
+
+body {
+    color: var(--slate);
+    background-color: var(--white);
+
+    font-family: 'Roboto', sans-serif;;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
+    color: var(--navy-blue);
+
+    font-family: 'Raleway',
+        sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;/* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: var(--iris);
+}
+
+.logo.logo--alternative {
+    color: var(--cloud);
+}
+
+.nav-list a {
+    color: var(--navy-blue);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;/* 150% */
+    letter-spacing: 0.32px;
+}
+
+.contacts-list a{
+    color: var(--slate);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;/* 150% */
+    letter-spacing: 0.32px;
+}
+
+.banner {
+    background-color: var(--light-slate);
+}
+
+.banner__title {
+    color: var(--white);
+
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;/* 107.143% */
+    letter-spacing: 1.12px;
+}
+
+.banner__btn {
+    background-color: var(--iris);
+    color: var(--white);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;/* 150% */
+    letter-spacing: 0.64px;
+
+    padding: 16px 32px;
+    border: 0;
+    border-radius: 4px;
+}
+
+.feaure__list h2 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;/* 120% */
+    letter-spacing: 0.4px;
+}
+
+.feaure__list p {
+    color: var(--slate);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;/* 150% */
+    letter-spacing: 0.32px;
+}
+
+.section-title {
+    color: var(--navy-blue);
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;/* 111.111% */
+    letter-spacing: 0.72px;
+}
+
+.team  {
+    background-color: var(--cloud);
+}
+
+.team .team__name {
+    color: var(--navy-blue);
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;/* 120% */
+    letter-spacing: 0.4px;
+}
+
+.team .team__position {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;/* 150% */
+    letter-spacing: 0.32px;
+}
+
+footer {
+    background-color: var(--navy-blue);
+}
+
+footer .footer__text {
+    color: var(--cloud);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;/* 150% */
+    letter-spacing: 0.32px;
+}
