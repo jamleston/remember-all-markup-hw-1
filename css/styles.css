@@ -29,6 +29,18 @@ button {
     cursor: pointer;
 }
 
+.header__wrap {
+    display: flex;
+    align-items: center;
+    padding: 24px 15px;
+    justify-content: space-between;
+}
+
+.header__nav-wrap {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     color: var(--navy-blue);
 
@@ -49,6 +61,15 @@ button {
     color: var(--cloud);
 }
 
+.nav-list {
+    display: flex;
+    margin-left: 76px;
+}
+
+.nav-list li:not(:last-child) {
+    margin-right: 40px;
+}
+
 .nav-list a {
     color: var(--navy-blue);
 
@@ -62,6 +83,15 @@ button {
 .nav-list a:focus {
     color: var(--cloud);
     background-color: var(--iris);
+}
+
+.contacts-list {
+    display: flex;
+    margin-right: 0;
+}
+
+.contacts-list li:not(:last-child) {
+    margin-right: 40px;
 }
 
 .contacts-list a{
